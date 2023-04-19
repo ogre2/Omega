@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2023/04/19
+
+### Added
+
+- Finished corporate landing page template.
+
+## [1.0.0] - 2023/04/13
+
+### Added
+
+- `<src/components>` subdirectory to house all template components.
+- `<src/styles>` subdirectory to house all SASS styling for components and pages.
+- Corporate landing page template complete.
+
+### Fixed
+
+- Release date for [0.0.1] in this CHANGELOG file.
+
 ## [0.0.1] - 2014-05-31
 
 ### Added

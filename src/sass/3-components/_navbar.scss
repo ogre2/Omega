@@ -1,0 +1,23 @@
+.navbar-light,
+.navbar-fixed,
+.navbar-dark {
+    .navbar-brand {
+        .navbar-brand-img {
+            height: 35px;
+            width: auto;
+        }
+    }
+}
+.navbar-fixed {
+    background: transparent;
+    width: 100%;
+    position: fixed;
+}
+.navbar-dark {
+    background-color: $primary;
+    .navbar-brand {
+        .navbar-brand-img {
+            filter: brightness(0) invert(1);
+        }
+    }
+}

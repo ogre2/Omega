@@ -1,0 +1,35 @@
+table {
+    border: none;
+    border-color: transparent;
+    thead {
+        border-color: transparent;
+        vertical-align: bottom;
+    }
+    tbody {
+        vertical-align: inherit;
+        border-style: solid;
+        border-width: 0;
+        tr {
+            height: 50px;
+            vertical-align: middle;
+            th {
+                font-weight: 400;
+            }
+            &:last-of-type {
+                border-bottom-color: transparent;
+            }
+        }
+    }
+}
+.features-table {
+    .text-muted {
+        color: #828282;
+    }
+}
+.col-sm-divider {
+    div {
+        &:not(:last-of-type) {
+            border-right: 1px solid #EDEDED;
+        }
+    }
+}

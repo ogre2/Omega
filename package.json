@@ -1,7 +1,7 @@
 {
   "name": "omega",
   "version": "0.1.0",
-  "homepage": "http://ogre2.github.io/Omega",
+  "homepage": "https://ogre2.github.io/Omega",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.7",

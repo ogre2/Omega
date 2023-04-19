@@ -1,0 +1,28 @@
+.footer-default {
+    .footer-brand {
+        .footer-brand-img {
+            height: 35px;
+            width: auto;
+            filter: brightness(0) invert(1);
+        }
+    }
+    .list-unstyled {
+        li {
+            &:not(:last-of-type) {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+.footer-primary {
+    background-color: $primary-dark;
+    .footer-divider {
+        border-top: 1px solid #ffffff1a;
+    }
+}
+.footer-dark {
+    background-color: $primary-dark;
+    .footer-divider {
+        border-top: 1px solid #004e82;
+    }
+}
