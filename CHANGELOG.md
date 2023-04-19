@@ -7,23 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.0] - 2023/04/19
+## [1.0.1] - 2023/04/19
 
-### Added
+### Fixed
 
-- Finished corporate landing page template.
+- [unreleased] link in this change log file.
 
-## [1.0.0] - 2023/04/13
+### Removed
+
+- Homepage link in the `<package.json>` file.
+
+## [1.0.0] - 2023/04/19
 
 ### Added
 
 - `<src/components>` subdirectory to house all template components.
+- `<src/pages>` subdirectory to house all pages.
 - `<src/styles>` subdirectory to house all SASS styling for components and pages.
+- Installed `<flag-icons>` dependency for frontend development use.
 - Corporate landing page template complete.
 
 ### Fixed
 
-- Release date for [0.0.1] in this CHANGELOG file.
+- Release date for [0.0.1] in this change log file.
+- Release link for [0.0.1] in this change log file.
 
 ## [0.0.1] - 2014-05-31
 
@@ -33,5 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Installed and configured `<gh-pages>`.
 - This CHANGELOG file to track the evolution of the project source code.
 
-[unreleased]: https://github.com/ogre2/Omega//compare/v0.0.1...HEAD
-[0.0.1]: https://github.com/ogre2/Omega//releases/tag/v0.0.1
+[unreleased]: https://github.com/ogre2/Omega//compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/ogre2/Omega/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/ogre2/Omega/compare/v0.0.1...v1.0.0
+[0.0.1]: https://github.com/ogre2/Omega/releases/tag/v0.0.1
