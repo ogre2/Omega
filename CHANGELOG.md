@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2023/04/19
+
+### Fixed
+
+- Changed github link to "." in the homepage link inside the `<package.json>` file.
+
 ## [1.0.2] - 2023/04/19
 
 ### Added
@@ -47,7 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Installed and configured `<gh-pages>`.
 - This CHANGELOG file to track the evolution of the project source code.
 
-[unreleased]: https://github.com/ogre2/Omega//compare/v1.0.2...HEAD
+[unreleased]: https://github.com/ogre2/Omega//compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/ogre2/Omega/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/ogre2/Omega/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ogre2/Omega/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/ogre2/Omega/compare/v0.0.1...v1.0.0
