@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route exact path="/" element={<Layout />}>
           <Route index element={<Corporate />} />
           <Route path="/agency" element={<Agency />} />
           <Route path="/consulting" element={<Consulting />} />

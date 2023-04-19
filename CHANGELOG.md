@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 2023/04/19
+
+### Changes
+
+- Refactored router code in the `<App.js>` file for the index page route.
+- Added the basename to the browser-router component in the `<index.js>` file.
+
+### Fixed
+
+- Github pages rendering issues.
+- Readded the correct github pages link in the `<package.json>` file.
+- Changed the private field in the `<package.json>` file from "true" to "false".
+  - This seemed to have solved the issue.
+
 ## [1.0.3] - 2023/04/19
 
 ### Fixed
@@ -53,7 +67,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Installed and configured `<gh-pages>`.
 - This CHANGELOG file to track the evolution of the project source code.
 
-[unreleased]: https://github.com/ogre2/Omega//compare/v1.0.3...HEAD
+[unreleased]: https://github.com/ogre2/Omega//compare/v1.0.4...HEAD
+[1.0.4]: https://github.com/ogre2/Omega/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/ogre2/Omega/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/ogre2/Omega/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ogre2/Omega/compare/v1.0.0...v1.0.1
