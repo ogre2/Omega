@@ -1,10 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Corporate from './pages/Corporate';
-import Agency from './pages/Agency';
-import Consulting from './pages/Consulting';
-import Services from './pages/Services';
-import Business from './pages/Business';
+import { Code503 } from './pages/HTTP';
 
 function App() {
   return (
@@ -12,10 +9,10 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Layout />}>
           <Route index element={<Corporate />} />
-          <Route path="/agency" element={<Agency />} />
-          <Route path="/consulting" element={<Consulting />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/business" element={<Business />} />
+          <Route path="/agency" element={<Code503 />} />
+          <Route path="/consulting" element={<Code503 />} />
+          <Route path="/services" element={<Code503 />} />
+          <Route path="/business" element={<Code503 />} />
         </Route>
       </Routes>
     </div>

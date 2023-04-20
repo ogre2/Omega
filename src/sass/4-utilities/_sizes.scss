@@ -1,4 +1,4 @@
-$sizes: (12, 20, 22, 30, 42, );
+$sizes: (12, 20, 22, 25, 28, 30, 42, 50);
 
 @each $size in $sizes {
     .max-width-#{$size} {

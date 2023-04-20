@@ -173,6 +173,9 @@ $font-weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
     display: inline-block!important;
     transform: rotate(180deg)!important;
 }
+.flip-horizontally {
+    transform: scaleX(-1);
+}
 /*------------------------------------------------------------------
 [Text Decorations]
 */
