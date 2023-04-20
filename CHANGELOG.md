@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2023/04/20
+
+### Added
+
+- New mobile device and browser images in the `<NavTabs>` section of the corporate page design.
+
+### Fixed
+
+- Class attribute declaration in the corporate page code.
+
 ## [1.1.0] - 2023/04/19
 
 ### Removed
@@ -75,7 +85,8 @@ as a temporary handler.
 - Installed and configured `<gh-pages>`.
 - This CHANGELOG file to track the evolution of the project source code.
 
-[unreleased]: https://github.com/ogre2/Omega//compare/v1.1.0...HEAD
+[unreleased]: https://github.com/ogre2/Omega//compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/ogre2/Omega/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/ogre2/Omega/compare/v1.0.4...v1.1.0
 [1.0.4]: https://github.com/ogre2/Omega/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/ogre2/Omega/compare/v1.0.2...v1.0.3

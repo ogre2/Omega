@@ -1,3 +1,10 @@
+import browserImg1 from '../assets/img/800x500/img1.png';
+import browserImg2 from '../assets/img/800x500/img2.png';
+import browserImg3 from '../assets/img/800x500/img3.png';
+import mobileImg1 from '../assets/img/240x480/img1.png';
+import mobileImg2 from '../assets/img/240x480/img2.png';
+import mobileImg3 from '../assets/img/240x480/img3.png';
+
 export function FeaturesTabs() {
     return(
         <div className="features-tabs mb-5">
@@ -68,7 +75,7 @@ export function FeaturesTabs() {
                     <div className="devices">
                         <figure className="device-mobile">
                             <div className="device-mobile-frame">
-                                <img className="device-mobile-img" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/240x480/img3.jpg" alt="Mobile" />
+                                <img className="device-mobile-img" src={mobileImg1} alt="Mobile" />
                             </div>
                         </figure>
 
@@ -85,7 +92,7 @@ export function FeaturesTabs() {
                             </div>
 
                             <div className="device-browser-frame">
-                                <img className="device-browser-img" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/800x500/img8.jpg" alt="Browser" />
+                                <img className="device-browser-img" src={browserImg3} alt="Browser" />
                             </div>
                         </figure>
                     </div>
@@ -95,7 +102,7 @@ export function FeaturesTabs() {
                     <div className="devices">
                         <figure className="device-mobile">
                             <div className="device-mobile-frame">
-                                <img className="device-mobile-img" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/240x480/img4.jpg" alt="Mobile" />
+                                <img className="device-mobile-img" src={mobileImg2} alt="Mobile" />
                             </div>
                         </figure>
 
@@ -112,7 +119,7 @@ export function FeaturesTabs() {
                             </div>
 
                             <div className="device-browser-frame">
-                                <img className="device-browser-img" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/800x500/img6.jpg" alt="Browser" />
+                                <img className="device-browser-img" src={browserImg2} alt="Browser" />
                             </div>
                         </figure>
                     </div>
@@ -122,7 +129,7 @@ export function FeaturesTabs() {
                     <div className="devices">
                         <figure className="device-mobile">
                             <div className="device-mobile-frame">
-                                <img className="device-mobile-img" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/240x480/img2.jpg" alt="Mobile" />
+                                <img className="device-mobile-img" src={mobileImg3} alt="Mobile" />
                             </div>
                         </figure>
 
@@ -139,7 +146,7 @@ export function FeaturesTabs() {
                             </div>
 
                             <div className="device-browser-frame">
-                                <img className="device-browser-img" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/800x500/img1.jpg" alt="Browser" />
+                                <img className="device-browser-img" src={browserImg1} alt="Browser" />
                             </div>
                         </figure>
                     </div>

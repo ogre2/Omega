@@ -398,25 +398,25 @@ function Corporate() {
                             <h5 className="text-white">Many of the world’s leading companies trust Omega</h5>
                         </div>
 
-                        <div class="row d-flex justify-content-center">
-                            <div class="col py-3">
-                                <img class="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/vidados-white.svg" alt="Logo" />
+                        <div className="row d-flex justify-content-center">
+                            <div className="col py-3">
+                                <img className="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/vidados-white.svg" alt="Logo" />
                             </div>
 
-                            <div class="col py-3">
-                                <img class="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/fitbit-white.svg" alt="Logo" />
+                            <div className="col py-3">
+                                <img className="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/fitbit-white.svg" alt="Logo" />
                             </div>
 
-                            <div class="col py-3">
-                                <img class="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/forbes-white.svg" alt="Logo" />
+                            <div className="col py-3">
+                                <img className="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/forbes-white.svg" alt="Logo" />
                             </div>
 
-                            <div class="col py-3">
-                                <img class="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/mailchimp-white.svg" alt="Logo" />
+                            <div className="col py-3">
+                                <img className="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/mailchimp-white.svg" alt="Logo" />
                             </div>
 
-                            <div class="col py-3">
-                                <img class="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/layar-white.svg" alt="Logo" />
+                            <div className="col py-3">
+                                <img className="avatar avatar-xl avatar-4x3" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/layar-white.svg" alt="Logo" />
                             </div>
                         </div>
                     </div>
