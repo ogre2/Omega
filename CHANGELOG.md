@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2023/04/21
+
+### Added
+
+- `<className>` props to the reviews components.
+
+### Changed
+
+- Moved the `<Navbar.js>`, `<Footer.js>`, `<Header.js>`, and `<Layout.js>` files from `<src/components>`
+to the `<src/layouts>` subdirectory.
+
 ## [1.2.0] - 2023/04/21
 
 ### Added

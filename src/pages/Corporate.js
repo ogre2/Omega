@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { HeaderLight } from '../components/Header';
+import { HeaderLight } from '../layouts/Header';
 import { JoinCard, AccordionCard } from '../components/Cards';
 import { FeaturesTabs } from '../components/NavTabs';
 import { FeaturesTable } from '../components/Tables';
@@ -89,11 +89,11 @@ function Corporate() {
                         <div className="my-90 border-top border-white-10"></div>
 
                         <div className="row">
-                            <Reviews.Header.AirBnb />
+                            <Reviews.Header.AirBnb className="col-sm mb-5 mb-sm-0" />
 
-                            <Reviews.Header.Amazon />
+                            <Reviews.Header.Amazon className="col-sm mb-5 mb-sm-0" />
 
-                            <Reviews.Header.Google />
+                            <Reviews.Header.Google className="col-sm mb-5 mb-sm-0" />
                         </div>
                     </div>
                 </section>

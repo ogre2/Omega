@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../../node_modules/flag-icons/css/flag-icons.min.css';
 import logo from '../logo.svg';
-import { LanguageToggler } from './Buttons';
+import { LanguageToggler } from '../components/Buttons';
 import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 export function FooterPrimary() {

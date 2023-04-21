@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from './layouts/Layout';
 import Corporate from './pages/Corporate';
 import { Code503 } from './pages/HTTP';
 

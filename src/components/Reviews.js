@@ -1,8 +1,8 @@
 export const Reviews = {
     'Header': {
-        'AirBnb': function Airbnb() {
+        'AirBnb': function Airbnb({ className }) {
             return (
-                <div className="col-sm mb-5 mb-sm-0">
+                <div className={className}>
                     <div className="d-flex gap-1 mb-2">
                         <i className="bi bi-star-fill text-warning"></i>
                         <i className="bi bi-star-fill text-warning"></i>
@@ -19,9 +19,9 @@ export const Reviews = {
                 </div>
             );
         },
-        'Amazon': function Airbnb() {
+        'Amazon': function Airbnb({ className }) {
             return (
-                <div className="col-sm mb-5 mb-sm-0">
+                <div className={className}>
                     <div className="d-flex gap-1 mb-2">
                         <i className="bi bi-star-fill text-warning"></i>
                         <i className="bi bi-star-fill text-warning"></i>
@@ -38,9 +38,9 @@ export const Reviews = {
                 </div>
             );
         },
-        'Google': function Amazon() {
+        'Google': function Amazon({ className }) {
             return(
-                <div className="col-sm mb-5 mb-sm-0">
+                <div className={className}>
                     <div className="d-flex gap-1 mb-2">
                         <i className="bi bi-star-fill text-warning"></i>
                         <i className="bi bi-star-fill text-warning"></i>

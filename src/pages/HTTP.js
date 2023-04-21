@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { HeaderLight } from '../components/Header';
+import { HeaderLight } from '../layouts/Header';
 
 export function Code503() {
     return(
