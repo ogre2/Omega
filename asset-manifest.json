@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Omega/static/css/main.8b1abad4.css",
-    "main.js": "/Omega/static/js/main.aa3a4215.js",
+    "main.css": "/Omega/static/css/main.945f387c.css",
+    "main.js": "/Omega/static/js/main.a7103c6a.js",
     "static/js/787.89b39c50.chunk.js": "/Omega/static/js/787.89b39c50.chunk.js",
     "static/media/do.svg": "/Omega/static/media/do.d2287a1e1eee0805fc27.svg",
     "static/media/img2.png": "/Omega/static/media/img2.b0de30a72d890d5c01e6.png",
@@ -275,12 +275,12 @@
     "static/media/de.svg": "/Omega/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/Omega/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/id.svg": "/Omega/static/media/id.f624e2c8444a7794b357.svg",
-    "main.8b1abad4.css.map": "/Omega/static/css/main.8b1abad4.css.map",
-    "main.aa3a4215.js.map": "/Omega/static/js/main.aa3a4215.js.map",
+    "main.945f387c.css.map": "/Omega/static/css/main.945f387c.css.map",
+    "main.a7103c6a.js.map": "/Omega/static/js/main.a7103c6a.js.map",
     "787.89b39c50.chunk.js.map": "/Omega/static/js/787.89b39c50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1abad4.css",
-    "static/js/main.aa3a4215.js"
+    "static/css/main.945f387c.css",
+    "static/js/main.a7103c6a.js"
   ]
 }
