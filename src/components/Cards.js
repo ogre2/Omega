@@ -13,7 +13,7 @@ export function JoinCard() {
 
                     <div className="col-sm">
                         <h5 className="card-title">Join Omega</h5>
-                        <p className="card-text">Hundreds of companies are using Omega to get their brands running.</p>
+                        <p className="card-text">Many companies are using Omega to get their brands at the forefront.</p>
                     </div>
                 </div>
 

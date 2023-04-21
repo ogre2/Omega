@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2023/04/21
+
+### Added
+
+- New images under the NavTabs section of the corporate landing page.
+- Additional column in the header company features section.
+- `.bg-white` definition in the `_backgrounds.scss` file.
+  - Applied it across various sections of the corporate landing page.
+
+### Changed
+
+- Moved the reviews in the header to a dedicated `<Reviews.js>` file under the components subdirectory.
+- `className` declaration in the FAQ section of the corporate landing page code.
+
+### Fixed
+
+- Copywriting of the corporate landing page.
+- Header form of the corporate landing page.
+- Padding on the FAQ accordion body areas.
+
 ## [1.1.1] - 2023/04/20
 
 ### Added
@@ -85,7 +105,8 @@ as a temporary handler.
 - Installed and configured `<gh-pages>`.
 - This CHANGELOG file to track the evolution of the project source code.
 
-[unreleased]: https://github.com/ogre2/Omega//compare/v1.1.1...HEAD
+[unreleased]: https://github.com/ogre2/Omega//compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/ogre2/Omega/compare/v1.1.0...v1.2.0
 [1.1.1]: https://github.com/ogre2/Omega/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/ogre2/Omega/compare/v1.0.4...v1.1.0
 [1.0.4]: https://github.com/ogre2/Omega/compare/v1.0.3...v1.0.4

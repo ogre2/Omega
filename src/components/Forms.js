@@ -3,9 +3,19 @@ import { Link } from 'react-router-dom';
 export function JoinForm() {
     return(
         <form id="joinForm" className="form">
-            <div className="mb-4">
-                <label htmlFor="name" className="form-label">Your name</label>
-                <input className="form-control form-control-lg" type="text" name="name" id="name" placeholder="Enter your name" aria-label="Enter your name" required data-msg="Please enter your name" />
+            <div className="row">
+                <div className="col-sm-6">
+                    <div className="mb-4">
+                        <label htmlFor="name" className="form-label">First name</label>
+                        <input className="form-control form-control-lg" type="text" name="name" id="name" placeholder="John" aria-label="Enter your name" required data-msg="Please enter your name" />
+                    </div>
+                </div>
+                <div className="col-sm-6">
+                    <div className="mb-4">
+                        <label htmlFor="name" className="form-label">Last name</label>
+                        <input className="form-control form-control-lg" type="text" name="name" id="name" placeholder="Doe" aria-label="Enter your name" required data-msg="Please enter your name" />
+                    </div>
+                </div>
             </div>
 
             <div className="mb-4">

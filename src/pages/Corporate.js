@@ -3,6 +3,7 @@ import { HeaderLight } from '../components/Header';
 import { JoinCard, AccordionCard } from '../components/Cards';
 import { FeaturesTabs } from '../components/NavTabs';
 import { FeaturesTable } from '../components/Tables';
+import { Reviews } from '../components/Reviews';
 
 function Corporate() {
     return(
@@ -15,15 +16,15 @@ function Corporate() {
                         <div className="row justify-content-center align-items-lg-center">
                             <div className="col-md-8 col-lg-6 mb-7 mb-lg-0">
                                 <div className="pe-lg-3 mb-5">
-                                    <h1 className="fw-600 text-white mb-2 mb-md-3">Helping startups find solutions.</h1>
+                                    <h1 className="fw-600 text-white mb-2 mb-md-3">We help bring your business to the audience.</h1>
 
                                     <p className="text-lg text-gray-300">
-                                        Built on standard web technology, teams use Omega to build responsive web applications in record time.
+                                        At Omega, we are dedicated to help businesses scale by using our indepth market research and analysis.
                                     </p>
                                 </div>
 
                                 <div className="row">
-                                    <div className="col-sm-6 mb-3 mb-sm-0">
+                                    <div className="col-sm-4 mb-3 mb-sm-0">
                                         <div className="d-flex align-items-center">
                                             <div className="flex-shrink-0">
                                                 <span className="svg-icon text-white">
@@ -41,7 +42,7 @@ function Corporate() {
                                         </div>
                                     </div>
 
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-4">
                                         <div className="d-flex align-items-center">
                                             <div className="flex-shrink-0">
                                                 <span className="svg-icon text-white">
@@ -53,8 +54,26 @@ function Corporate() {
                                             </div>
 
                                             <div className="flex-grow-1 ms-4">
-                                                <h6 className="text-white mb-0">92%</h6>
+                                                <h6 className="text-white mb-0">99%</h6>
                                                 <p className="text-gray-300">Satisfaction rate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="d-flex align-items-center">
+                                            <div className="flex-shrink-0">
+                                                <span className="svg-icon text-white">
+                                                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.43 8.56949L10.744 15.1395C10.6422 15.282 10.5804 15.4492 10.5651 15.6236C10.5498 15.7981 10.5815 15.9734 10.657 16.1315L13.194 21.4425C13.2737 21.6097 13.3991 21.751 13.5557 21.8499C13.7123 21.9488 13.8938 22.0014 14.079 22.0015H14.117C14.3087 21.9941 14.4941 21.9307 14.6502 21.8191C14.8062 21.7075 14.9261 21.5526 14.995 21.3735L21.933 3.33649C22.0011 3.15918 22.0164 2.96594 21.977 2.78013C21.9376 2.59432 21.8452 2.4239 21.711 2.28949L15.43 8.56949Z" fill="#FFFFFF" />
+                                                        <path opacity="0.3" d="M20.664 2.06648L2.62602 9.00148C2.44768 9.07085 2.29348 9.19082 2.1824 9.34663C2.07131 9.50244 2.00818 9.68731 2.00074 9.87853C1.99331 10.0697 2.04189 10.259 2.14054 10.4229C2.23919 10.5869 2.38359 10.7185 2.55601 10.8015L7.86601 13.3365C8.02383 13.4126 8.19925 13.4448 8.37382 13.4297C8.54839 13.4145 8.71565 13.3526 8.85801 13.2505L15.43 8.56548L21.711 2.28448C21.5762 2.15096 21.4055 2.05932 21.2198 2.02064C21.034 1.98196 20.8409 1.99788 20.664 2.06648V2.06648Z" fill="#FFFFFF" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+
+                                            <div className="flex-grow-1 ms-4">
+                                                <h6 className="text-white mb-0">On-demand</h6>
+                                                <p className="text-gray-300">Data analytics</p>
                                             </div>
                                         </div>
                                     </div>
@@ -70,58 +89,16 @@ function Corporate() {
                         <div className="my-90 border-top border-white-10"></div>
 
                         <div className="row">
-                            <div className="col-sm mb-5 mb-sm-0">
-                                <div className="d-flex gap-1 mb-2">
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-half text-warning"></i>
-                                </div>
+                            <Reviews.Header.AirBnb />
 
-                                <blockquote className="blockquote blockquote-sm text-white mb-4">
-                                    <i className="bi bi-quote superscript"></i> This is a beautiful template with exciting components. <i className="bi bi-quote superscript flip-180"></i>
-                                </blockquote>
+                            <Reviews.Header.Amazon />
 
-                                <img className="" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/airbnb-white-50.svg" alt="Company" />
-                            </div>
-
-                            <div className="col-sm mb-5 mb-sm-0">
-                                <div className="d-flex gap-1 mb-2">
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                </div>
-
-                                <blockquote className="blockquote blockquote-sm text-white mb-4">
-                                    <i className="bi bi-quote superscript"></i> This is a beautiful template with exciting components. <i className="bi bi-quote superscript flip-180"></i>
-                                </blockquote>
-
-                                <img className="" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/amazon-white-50.svg" alt="Company" />
-                            </div>
-
-                            <div className="col-sm mb-5 mb-sm-0">
-                                <div className="d-flex gap-1 mb-2">
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-fill text-warning"></i>
-                                    <i className="bi bi-star-half text-warning"></i>
-                                </div>
-
-                                <blockquote className="blockquote blockquote-sm text-white mb-4">
-                                    <i className="bi bi-quote superscript"></i> This is a beautiful template with exciting components. <i className="bi bi-quote superscript flip-180"></i>
-                                </blockquote>
-
-                                <img className="" src="https://htmlstream.com/preview/space-v2.3.1/assets/svg/brands/google-white-50.svg" alt="Company" />
-                            </div>
+                            <Reviews.Header.Google />
                         </div>
                     </div>
                 </section>
 
-                <section className="features-section">
+                <section className="features-section bg-white">
                     <div className="container">
                         <div className="w-lg-65 mx-lg-auto mb-5 text-center">
                             <h3 className="mb-2">Take the best path forward</h3>
@@ -134,11 +111,11 @@ function Corporate() {
                     </div>
                 </section>
 
-                <section className="features-cont">
+                <section className="features-cont bg-white">
                     <div className="position-relative mb-5">
                         <div className="container">
                             <div className="row justify-content-end align-items-md-center">
-                                <div className="d-none d-md-block col-md-6 position-absolute top-0 start-0 bg-img-cover-center h-100" style={{backgroundImage: "url('https://htmlstream.com/preview/space-v2.3.1/assets/img/900x700/img7.jpg')"}}></div>
+                                <div className="d-none d-md-block col-md-6 position-absolute top-0 start-0 bg-img-cover-center h-100" style={{backgroundImage: "url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')"}}></div>
                                 <div className="d-md-none mb-5 mb-md-0">
                                     <img className="img-fluid" src="https://htmlstream.com/preview/space-v2.3.1/assets/img/900x700/img7.jpg" alt="Agency" />
                                 </div>
@@ -283,22 +260,22 @@ function Corporate() {
                             <div className="row col-sm-divider">
                                 <div className="col-sm-4 px-4 px-xs-0">
                                     <div className="text-center">
-                                        <h3 className="text-primary heading-3">45k+</h3>
-                                        <p className="mb-0">Clients from freelancers to corportate companies.</p>
+                                        <h3 className="text-primary heading-3">100+</h3>
+                                        <p className="mb-0">Templates developed, analyzed, and successfully launched.</p>
                                     </div>
                                 </div>
 
                                 <div className="col-sm-4 px-4 px-xs-0">
                                     <div className="text-center">
-                                        <h3 className="text-primary heading-3">8...</h3>
-                                        <p className="mb-0">Years of experience in this business already.</p>
+                                        <h3 className="text-primary heading-3">...4</h3>
+                                        <p className="mb-0">Years of experience and counting of helping businesses scale and grow.</p>
                                     </div>
                                 </div>
 
                                 <div className="col-sm-4 px-4 px-xs-0">
                                     <div className="text-center">
-                                        <h3 className="text-primary heading-3">12k+</h3>
-                                        <p className="mb-0">Resolved all kinds of questiosn and inquiries.</p>
+                                        <h3 className="text-primary heading-3">11k+</h3>
+                                        <p className="mb-0">Questions, inquiries, and client worries taken care of so far.</p>
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +283,7 @@ function Corporate() {
                     </div>
                 </section>
 
-                <section className="">
+                <section className="faq-section">
                     <div className="container">
                         <div className="w-lg-65 mx-lg-auto mb-5 text-center">
                             <h3 className="mb-2">All about Omega</h3>
