@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.3] - 2023/04/21
+
+### Added
+
+- [1.2.2] release link in this change log file.
+
+### Fixed
+
+- Content centering in table columns of the corporate page.
+- Typography responsiveness (sizing on mobile devices).
+- Image displaying fix for mobile devices of the corporate page.
+- Fixed column and card sizing on mobile devices on the corporate page.
+
 ## [1.2.2] - 2023/04/21
 
 ### Added
@@ -122,7 +135,9 @@ as a temporary handler.
 - Installed and configured `<gh-pages>`.
 - This CHANGELOG file to track the evolution of the project source code.
 
-[unreleased]: https://github.com/ogre2/Omega//compare/v1.2.1...HEAD
+[unreleased]: https://github.com/ogre2/Omega//compare/v1.2.3...HEAD
+[1.2.3]: https://github.com/ogre2/Omega/compare/v1.2.2...v1.2.3
+[1.2.2]: https://github.com/ogre2/Omega/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/ogre2/Omega/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/ogre2/Omega/compare/v1.1.0...v1.2.0
 [1.1.1]: https://github.com/ogre2/Omega/compare/v1.1.0...v1.1.1

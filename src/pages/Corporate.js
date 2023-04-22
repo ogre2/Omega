@@ -14,9 +14,9 @@ function Corporate() {
                 <section className="header bg-primary-dark">
                     <div className="container">
                         <div className="row justify-content-center align-items-lg-center">
-                            <div className="col-md-8 col-lg-6 mb-7 mb-lg-0">
+                            <div className="col-md-8 col-lg-6 mb-5 mb-lg-0">
                                 <div className="pe-lg-3 mb-5">
-                                    <h1 className="fw-600 text-white mb-2 mb-md-3">We help bring your business to the audience.</h1>
+                                    <h1 className="heading-2 fw-600 text-white mb-2 mb-md-3">We help bring your business to the audience.</h1>
 
                                     <p className="text-lg text-gray-300">
                                         At Omega, we are dedicated to help businesses scale by using our indepth market research and analysis.
@@ -42,7 +42,7 @@ function Corporate() {
                                         </div>
                                     </div>
 
-                                    <div className="col-sm-4">
+                                    <div className="col-sm-4 mb-3 mb-sm-0">
                                         <div className="d-flex align-items-center">
                                             <div className="flex-shrink-0">
                                                 <span className="svg-icon text-white">
@@ -98,7 +98,7 @@ function Corporate() {
                     </div>
                 </section>
 
-                <section className="features-section bg-white">
+                <section className="features-section bg-white pb-0">
                     <div className="container">
                         <div className="w-lg-65 mx-lg-auto mb-5 text-center">
                             <h3 className="mb-2">Take the best path forward</h3>
@@ -121,7 +121,7 @@ function Corporate() {
                                 </div>
 
                                 <div className="col-md-6">
-                                    <div className="p-md-5 p-lg-60">
+                                    <div className="p-md-5 p-lg-60 mb-sm-5">
                                         <div className="mb-4 mb-sm-5">
                                             <span className="fs-12 lh-18 fw-500 text-uppercase">Create a website</span>
                                             <h3 className="mt-2 mb-2">Less overhead, more collaboration</h3>
@@ -148,8 +148,8 @@ function Corporate() {
                                                 </ul>
                                             </div>
                                         </div>
-
-                                        <Link className="link fw-500" to="#">Explore all templates <i className="bi bi-chevron-right small ms-1"></i></Link>
+                                        
+                                        <Link className="link fw-500 mt-2" to="#">Explore all templates <i className="bi bi-chevron-right small ms-1"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ function Corporate() {
                     <div className="position-relative">
                         <div className="container">
                             <div className="row pt-80">
-                                <div className="col-sm-6 col-lg-4 mb-5 px-5">
+                                <div className="col-md-6 col-lg-4 px-lg-5 mb-5">
                                     <span className="svg-icon text-primary mb-3">
                                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.5 11C8.98528 11 11 8.98528 11 6.5C11 4.01472 8.98528 2 6.5 2C4.01472 2 2 4.01472 2 6.5C2 8.98528 4.01472 11 6.5 11Z" fill="#007DFC" />
@@ -171,7 +171,7 @@ function Corporate() {
                                     <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
                                 </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-5 px-5">
+                                <div className="col-sm-6 col-lg-4 px-lg-5 mb-5">
                                     <span className="svg-icon text-primary mb-3">
                                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M13.0021 10.9128V3.01281C13.0021 2.41281 13.5021 1.91281 14.1021 2.01281C16.1021 2.21281 17.9021 3.11284 19.3021 4.61284C20.7021 6.01284 21.6021 7.91285 21.9021 9.81285C22.0021 10.4129 21.5021 10.9128 20.9021 10.9128H13.0021V10.9128Z" fill="#007DFC" />
@@ -184,7 +184,7 @@ function Corporate() {
                                     <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
                                 </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-5 px-5">
+                                <div className="col-sm-6 col-lg-4 px-lg-5 mb-5">
                                     <span className="svg-icon text-primary mb-3">
                                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M3 7.19995H10C10.6 7.19995 11 6.79995 11 6.19995V3.19995C11 2.59995 10.6 2.19995 10 2.19995H3C2.4 2.19995 2 2.59995 2 3.19995V6.19995C2 6.69995 2.4 7.19995 3 7.19995Z" fill="#007DFC" />
@@ -196,7 +196,7 @@ function Corporate() {
                                     <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
                                 </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-5 px-5">
+                                <div className="col-sm-6 col-lg-4 px-lg-5 mb-5">
                                     <span className="svg-icon text-primary mb-3">
                                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.3" d="M21 10.7192H3C2.4 10.7192 2 11.1192 2 11.7192C2 12.3192 2.4 12.7192 3 12.7192H6V14.7192C6 18.0192 8.7 20.7192 12 20.7192C15.3 20.7192 18 18.0192 18 14.7192V12.7192H21C21.6 12.7192 22 12.3192 22 11.7192C22 11.1192 21.6 10.7192 21 10.7192Z" fill="#007DFC" />
@@ -208,7 +208,7 @@ function Corporate() {
                                     <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
                                 </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-5 px-5">
+                                <div className="col-sm-6 col-lg-4 px-lg-5 mb-5">
                                     <span className="svg-icon text-primary mb-3">
                                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.3" d="M2.10001 10C3.00001 5.6 6.69998 2.3 11.2 2L8.79999 4.39999L11.1 7C9.60001 7.3 8.30001 8.19999 7.60001 9.59999L4.5 12.4L2.10001 10ZM19.3 11.5L16.4 14C15.7 15.5 14.4 16.6 12.7 16.9L15 19.5L12.6 21.9C17.1 21.6 20.8 18.2 21.7 13.9L19.3 11.5Z" fill="#007DFC" />
@@ -220,7 +220,7 @@ function Corporate() {
                                     <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
                                 </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-5 px-5">
+                                <div className="col-sm-6 col-lg-4 px-lg-5 mb-5">
                                     <span className="svg-icon text-primary mb-3">
                                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M17.2718 8.68537C16.8933 8.28319 16.9125 7.65032 17.3146 7.2718C17.7168 6.89329 18.3497 6.91246 18.7282 7.31464L22.7282 11.5646C23.0906 11.9497 23.0906 12.5503 22.7282 12.9354L18.7282 17.1854C18.3497 17.5875 17.7168 17.6067 17.3146 17.2282C16.9125 16.8497 16.8933 16.2168 17.2718 15.8146L20.6268 12.25L17.2718 8.68537Z" fill="#007DFC" />
@@ -258,21 +258,21 @@ function Corporate() {
 
                         <div className="w-md-auto w-lg-75 text-center mx-lg-auto">
                             <div className="row col-sm-divider">
-                                <div className="col-sm-4 px-4 px-xs-0">
+                                <div className="col-sm-4 px-4 px-xs-0 mb-4 mb-lg-0">
                                     <div className="text-center">
                                         <h3 className="text-primary heading-3">100+</h3>
                                         <p className="mb-0">Templates developed, analyzed, and successfully launched.</p>
                                     </div>
                                 </div>
 
-                                <div className="col-sm-4 px-4 px-xs-0">
+                                <div className="col-sm-4 px-4 px-xs-0 mb-4 mb-lg-0">
                                     <div className="text-center">
                                         <h3 className="text-primary heading-3">...4</h3>
                                         <p className="mb-0">Years of experience and counting of helping businesses scale and grow.</p>
                                     </div>
                                 </div>
 
-                                <div className="col-sm-4 px-4 px-xs-0">
+                                <div className="col-sm-4 px-4 px-xs-0 mb-lg-0">
                                     <div className="text-center">
                                         <h3 className="text-primary heading-3">11k+</h3>
                                         <p className="mb-0">Questions, inquiries, and client worries taken care of so far.</p>
@@ -290,55 +290,53 @@ function Corporate() {
                             <p className="text-2 text-gray-500">Explore all of our guides and resources.</p>
                         </div>
 
-                        <div className="row d-grid items-center">
-                            <div className="mb-5 mb-sm-5 d-flex justify-content-between w-lg-85 flex-wrap">
-                                <div className="col-sm-6 col-lg-4 mb-3 mb-lg-5 d-flex justify-content-center">
-                                    <Link className="card card-lg card-transition bg-primary-dark max-width-22 p-3" to="#" style={{minHeight: '22rem'}}>
-                                        <div className="card-body">
-                                            <div className="mb-3">
-                                                <span className="badge bg-soft-light">Data insight</span>
-                                            </div>
+                        <div className="row mb-5 mb-sm-5">
+                            <div className="col-sm-6 col-lg-4 mb-3 mb-lg-5 d-grid items-center">
+                                <Link className="card card-lg card-transition bg-primary-dark p-3 w-lg-85 w-md-100" to="#" style={{minHeight: '22rem'}}>
+                                    <div className="card-body">
+                                        <div className="mb-3">
+                                            <span className="badge bg-soft-light">Data insight</span>
+                                        </div>
 
-                                            <h4 className="card-title text-white mb-5">State of product analytics report</h4>
-                                            <span className="card-link link-light">Learn more <i className="bi-chevron-right small ms-1"></i></span>
-                                            <div className="position-absolute bottom-0 start-0 end-0">
+                                        <h4 className="card-title text-white mb-5">State of product analytics report</h4>
+                                        <span className="card-link link-light">Learn more <i className="bi-chevron-right small ms-1"></i></span>
+                                        <div className="position-absolute bottom-0 start-0 end-0">
 
-                                            </div>
-                                        </div>    
-                                    </Link> 
-                                </div>
+                                        </div>
+                                    </div>    
+                                </Link> 
+                            </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-3 mb-lg-5 d-flex justify-content-center">
-                                    <Link className="card card-lg card-transition bg-primary-dark max-width-22 p-3" to="#" style={{minHeight: '22rem'}}>
-                                        <div className="card-body">
-                                            <div className="mb-3">
-                                                <span className="badge bg-soft-light">E-Books & Reports</span>
-                                            </div>
+                            <div className="col-sm-6 col-lg-4 mb-3 mb-lg-5 d-grid items-center">
+                                <Link className="card card-lg card-transition bg-primary-dark p-3 w-lg-85 w-md-100" to="#" style={{minHeight: '22rem'}}>
+                                    <div className="card-body">
+                                        <div className="mb-3">
+                                            <span className="badge bg-soft-light">E-Books & Reports</span>
+                                        </div>
 
-                                            <h4 className="card-title text-white mb-5">Omega 2023 system architecture</h4>
-                                            <span className="card-link link-light">Learn more <i className="bi-chevron-right small ms-1"></i></span>
-                                            <div className="position-absolute bottom-0 start-0 end-0">
+                                        <h4 className="card-title text-white mb-5">Omega 2023 system architecture</h4>
+                                        <span className="card-link link-light">Learn more <i className="bi-chevron-right small ms-1"></i></span>
+                                        <div className="position-absolute bottom-0 start-0 end-0">
 
-                                            </div>
-                                        </div>    
-                                    </Link> 
-                                </div>
+                                        </div>
+                                    </div>    
+                                </Link> 
+                            </div>
 
-                                <div className="col-sm-6 col-lg-4 mb-3 mb-lg-5 d-flex justify-content-center">
-                                    <Link className="card card-lg card-transition bg-primary-dark max-width-22 p-3" to="#" style={{minHeight: '22rem'}}>
-                                        <div className="card-body">
-                                            <div className="mb-3">
-                                                <span className="badge bg-soft-light">E-Books & Reports</span>
-                                            </div>
+                            <div className="col-sm-6 col-lg-4 mb-3 mb-lg-5 d-grid items-center">
+                                <Link className="card card-lg card-transition bg-primary-dark p-3 w-lg-85 w-md-100" to="#" style={{minHeight: '22rem'}}>
+                                    <div className="card-body">
+                                        <div className="mb-3">
+                                            <span className="badge bg-soft-light">E-Books & Reports</span>
+                                        </div>
 
-                                            <h4 className="card-title text-white mb-5">A guide to Omega product materials</h4>
-                                            <span className="card-link link-light">Learn more <i className="bi-chevron-right small ms-1"></i></span>
-                                            <div className="position-absolute bottom-0 start-0 end-0">
+                                        <h4 className="card-title text-white mb-5">A guide to Omega product materials</h4>
+                                        <span className="card-link link-light">Learn more <i className="bi-chevron-right small ms-1"></i></span>
+                                        <div className="position-absolute bottom-0 start-0 end-0">
 
-                                            </div>
-                                        </div>    
-                                    </Link> 
-                                </div>
+                                        </div>
+                                    </div>    
+                                </Link> 
                             </div>
                         </div>
 
